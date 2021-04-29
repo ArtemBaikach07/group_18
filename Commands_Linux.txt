@@ -5,7 +5,7 @@
  pwd 		- 	Посмотреть где я
  
 
- mkdir 		- 	Создать папку
+ mkdir 	foldername	- 	Создать папку
 
  
  Clear		-	Очистить консоль
@@ -40,10 +40,10 @@
 
  cd ..		-	Выйти из папки на уровень выше
 
- mv filename1 filename2 foldername	-	переместить любые 2 файла, которые вы создали, в любую другую папку.
+ mv foldername1/filename.txt foldername1/filename.json foldername3	-	переместить любые 2 файла, которые вы создали, в любую другую папку.
  
 
- cp filename1 filename2 foldername	-	скопировать любые 2 файла, которые вы создали, в любую другую папку.
+ cp foldername1/filename.json foldername3/filename.txt foldername2	-	скопировать любые 2 файла, которые вы создали, в любую другую папку.
  
 
  find . -name filename		-	Найти файл по имени
@@ -52,10 +52,10 @@
  cat filename.txt	-	просмотреть содержимое в реальном времени
  
 
- head filename.txt	-	вывести несколько первых строк из текстового файла
+ head -n filename.txt	-	вывести несколько первых строк из текстового файла
  
 
- tail /var/log/syslog filename	-	вывести несколько последних строк из текстового файла
+ tail -n filename.txt	-	вывести несколько последних строк из текстового файла
  
 
  less filename.txt	-	просмотреть содержимое длинного файла
