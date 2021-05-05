@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd Desk1/        заходим в папку
+
+mkdir -p folder1 folder 2 folder3       создали три папки
+
+cd folder3      зашли в папку
+
+touch file_1.txt file_2.txt file_3.txt bag1.json bag2.json      создали пять файлов
+
+mkdir -p case1 case 2 case 3       создали три папки
+
+ls -la        просмотр содержимого в папке
+
+mv folder3/file_1.txt folder3/bag2.json folder1        переместили два файла в любую другую папку
